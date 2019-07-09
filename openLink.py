@@ -43,6 +43,12 @@ def open_youtube():
 def open_video_on_youtube(video_name):
 	url="https://www.youtube.com/results?search_query="+quote(video_name)
 	browser.get(url)
+	
 def open_google(text):
 	url="https://www.google.com/search?q="+quote(text)
+	browser.get(url)
+	
+def open_flim(flim):
+	url='http://www.phimmoi.net/tim-kiem/%s/'%quote(flim)
+	browser = webdriver.Chrome(executable_path=executable_path)
 	browser.get(url)
