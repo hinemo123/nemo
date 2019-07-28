@@ -1,6 +1,14 @@
 python 3.6.5
-gtts
+gtts==2.0.3
 pylet
-selenium
+selenium==3.141.0
 pyttsx3
-speech_recognition
+speech_recognition==3.8.1
+nltk==3.4.1
+time
+numpy
+tflearn
+tensorflow==1.13.1 
+random
+json
+pickle
