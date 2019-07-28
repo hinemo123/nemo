@@ -12,7 +12,7 @@ import pickle
 import nemo
 import text as t
 
-with open(r"D:\data\Documents\vscode\intents.json") as file:
+with open("intents.json") as file:
     data = json.load(file)
 
 
